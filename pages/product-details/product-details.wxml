@@ -1,0 +1,257 @@
+<view class='product-container'>
+  <view>
+    <swiper class='product-imgs product-base-style' indicator-dots="true" autoplay="true" interval="3000" duration="1000" circular="true">
+      <swiper-item>
+        <image src='/images/product-imgs.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/product-imgs.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/product-imgs.png'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='product-msg product-base-style'>
+    <view class='product-introduce'>
+      <image src='/images/product-logo1.png'></image>
+      <text>西洋参片吉林敖东长白山西洋参切片含片花旗参片包邮</text>
+    </view>
+    <view class='product-price'>
+      <text class='price'>价格:</text>
+      <text class='current'>￥156</text>
+      <text class='cost'>￥173</text>
+      <image src='/images/product-logo2.png'></image>
+    </view>
+    <view class='product-code'>
+      <text class='code'>编码:</text>
+      <text class='code-number'>123456789</text>
+    </view>
+  </view>
+  <view class='product-pack-container'>
+    <view class='product-pack product-base-style'>
+      <text class='pack'>保障:</text>
+      <image src='/images/product-logo3.png'></image>
+      <text class='pack-msg'>正品</text>
+      <image src='/images/product-logo4.png'></image>
+      <text class='pack-msg'>7天退换</text>
+      <image src='/images/product-logo5.png'></image>
+      <text class='pack-msg'>保障隐私</text>
+    </view>
+  </view>
+  <view class='product-address-container product-base-style'>
+    <view class='product-address'>
+      <text class='distribution'>配送至:</text>
+      <image class='address-logo1' src='/images/product-logo6.png'></image>
+      <text class='address'>广东省广州市</text>
+      <image class='address-logo2' src='/images/product-logo7.png'></image>
+    </view>
+    <view class='product-express'>
+      <text class='express-price'>最低快递价:</text>
+      <text class='express-choice'>圆通快递6元</text>
+      <image class='express-logo1' src='/images/product-logo8.png'></image>
+      <image class='express-logo2' src='/images/product-logo7.png'></image>
+    </view>
+    <view class='product-business'>本商品由济南健民大药店从山东省济南市发货</view>
+    <view class='product-safe product-base-style'>
+      <image src='/images/product-logo9.png'></image>
+    </view>
+  </view>
+  <view class='blank'></view>
+  <view class='product-activity-container product-base-style'>
+    <view class='product-activity'>
+      <text class='activity'>活动:</text>
+      <image class='activity-logo1' src='/images/product-logo10.png'></image>
+      <image class='activity-logo2' src='/images/product-logo7.png'></image>
+    </view>
+    <view class='product-format'>
+      <text class='format'>规格:</text>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{format}}">
+        <view class='format-picker'>
+          <view>
+            {{format[formatIndex]}}
+            <image class='format-img' src='/images/product-logo11.png'></image>
+          </view>
+
+        </view>
+      </picker>
+    </view>
+    <view class='product-quantity product-base-style'>
+      <text class='quantity'>数量:</text>
+      <view class='amount'>
+        <view class='amount-left'>
+          <text class='del'>-</text>
+        </view>
+        <view class='amount-number'>
+          <text>1</text>
+        </view>
+        <view class='amount-right'>
+          <text>+</text>
+        </view>
+      </view>
+      <text class='stock'>库存1111件</text>
+    </view>
+  </view>
+  <view class='blank'></view>
+  <view class='product-shop-container'>
+    <view class='shop product-base-style'>
+      <view class='shop-left'>
+        <view class='shop-name'>
+          <text>广州博爱智谷医药连锁</text>
+          <image src='/images/product-logo13.png'></image>
+        </view>
+        <view class='shop-address'>
+          <image src='/images/product-logo12.png'></image>
+          <text>广东省广州市</text>
+          <view class='stars'>
+            <view class='noStars'></view>
+            <view class='fullStars' style='width:{{score}}rpx'></view>
+          </view>
+        </view>
+      </view>
+      <view class='shop-right'>
+        <image src='/images/product-logo14.png'></image>
+        <text>4008855171</text>
+      </view>
+    </view>
+  </view>
+  <view class='blank'></view>
+  <view class='product-instructions-container'>
+    <view class='instructions-title'>
+      <view class='instructions-text'>
+        药品说明书
+        <view class='instructions-border-left'></view>
+      </view>
+      <view class='instructions-img'>
+        图片详情
+        <view class='instructions-border-right'></view>
+      </view>
+    </view>
+    <view class='instructions-msg product-base-style'>
+      <view class='instructions-logo'>
+        <image src='/images/product-logo17.png'></image>
+      </view>
+      <view class='instructions-view-style'>
+        <text class='instructions-text-style1'>药品名称:</text>
+        <text class='instructions-text-style2'>同仁堂六味地黄丸</text>
+      </view>
+      <view class='instructions-view-style'>
+        <text class='instructions-text-style1'>通用名称:</text>
+        <text class='instructions-text-style2'>六味地黄丸</text>
+      </view>
+      <view class='instructions-view-style'>
+        <text class='instructions-text-style1'>批准文号:</text>
+        <text class='instructions-text-style2'>13800138000</text>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>规格:</view>
+        <view class='instructions-text-style2'>同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸同仁堂六味地黄丸</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>药品本位码:</view>
+        <view class='instructions-text-style2'>0123456789</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>生产厂商:</view>
+        <view class='instructions-text-style2'>白云山制药</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>生产厂商地址:</view>
+        <view class='instructions-text-style2'>北京路</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>品牌:</view>
+        <view class='instructions-text-style2'>川奇</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>药品属性:</view>
+        <view class='instructions-text-style2'>otc药</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>储藏:</view>
+        <view class='instructions-text-style2'>密封,在阴凉处保存。</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>主要成份:</view>
+        <view class='instructions-text-style2'>不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道 </view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>功能主治:</view>
+        <view class='instructions-text-style2'>发热，流鼻涕</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>用法用量:</view>
+        <view class='instructions-text-style2'>口服</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>不良反应:</view>
+        <view class='instructions-text-style2'>没有</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>注意事项:</view>
+        <view class='instructions-text-style2'>不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>禁忌:</view>
+        <view class='instructions-text-style2'>不知道</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>药物相互作用:</view>
+        <view class='instructions-text-style2'>不知道</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>是否进口:</view>
+        <view class='instructions-text-style2'>是</view>
+      </view>
+      <view class='instructions-view-style'>
+        <view class='instructions-text-style1'>有效期:</view>
+        <view class='instructions-text-style2'>36个月</view>
+      </view>
+    </view>
+  </view>
+  <view class='myTabBar-container'>
+    <view class='myTabBar-phone'>
+      <image src='/images/product-logo18.png'></image>
+      <text>电话咨询</text>
+    </view>
+    <view class='myTabBar-buy'>立即购买</view>
+  </view>
+  <view class='goTop-container'>
+    <image src='/images/product-logo19.png'></image>
+    <text>顶部</text>
+  </view>
+  <view class='coat'></view>
+  <view class='confirm-container'>
+    <view class='confirm-msg'>
+      <image class="confirm-msg-close" src='/images/product-logo20.png'></image>
+      <view class='confirm-msg-introduce'>
+        <image src='/images/product-logo21.png'></image>
+        <view class='confirm-msg-detail'>
+          <text class='confirm-msg-title'>迪巧 维D钙咀嚼钙片120片 孕妇成人备孕妊娠哺乳更年期中老年补钙</text>
+          <text class='confirm-msg-format'>规格: 100粒/瓶</text>
+          <text class='confirm-msg-price'>￥623.12</text>
+        </view>
+      </view>
+      <view class='confirm-msg-count'>
+        <view class='confirm-msg-count-left'>
+          <text>购买数量:</text>
+          <text>库存剩余1111件</text>
+        </view>
+        <view class='confirm-msg-count-right'>
+          <view class='amount'>
+            <view class='amount-left'>
+              <text class='del'>-</text>
+            </view>
+            <view class='amount-number'>
+              <text>1</text>
+            </view>
+            <view class='amount-right'>
+              <text>+</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='confirm-buy'>确定购买</view>
+  </view>
+</view>
